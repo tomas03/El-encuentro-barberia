@@ -1,0 +1,121 @@
+/*prefix*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row
+{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+/*nav bar*/
+header
+{
+    background-color: hsl(193.4deg 100% 20.2%);
+    display:flex;
+    height: 70px;
+}
+.logo
+{
+    width: 20%;
+    padding-left: 30px;
+}
+.logo img
+{
+    width: 70px;
+    height: 70px;
+}
+.title_nav
+{
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+}
+.title_nav a
+{
+    text-decoration: none;
+    color: black;
+}
+.nav_bar
+{
+    width: 30%;
+    margin-top: 30px;
+}
+.a_nav
+{
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    width: 10px;
+    height: 40px;
+    background-color: aliceblue;
+    color: black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+@media (max-width: 800px)
+{
+    .logo
+{
+    width: 20%;
+}
+.title_nav
+{
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+}
+.nav_bar
+{
+    width: 30%;
+    margin-top: 30px;
+}
+.a_nav
+{
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    width: 10px;
+    height: 40px;
+    background-color: aliceblue;
+    color: black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+}
+/*cut section*/
+.cortes
+{
+    width: 100%;
+}
+img
+{
+    width: 100%;
+}
+.img-cortes:hover
+{
+    cursor: pointer;
+}
+.columns
+{
+    flex: 50%;
+    padding: 5px;
+}
+.columns img
+{
+    margin-top: 5px;
+}
+@media (max-width: 600px) 
+{
+    .columns
+{
+    flex: 100%;
+}
+}
