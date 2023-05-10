@@ -119,3 +119,58 @@ img
     flex: 100%;
 }
 }
+/*Contact section*/
+#contactos {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  #contactos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #contactos p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #contactos label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  #contactos input[type="text"],
+  #contactos input[type="email"],
+  #contactos textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contactos input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #contactos input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #contactos input[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4CAF50;
+  }
